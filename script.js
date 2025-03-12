@@ -93,7 +93,6 @@ function onClickItem(e) {
     removeItem(e.target.parentElement.parentElement);
   } else {
     if (e.target.className !== 'items') {
-      console.log(e.target.className);
       setItemToEdit(e.target);
     }
   }
